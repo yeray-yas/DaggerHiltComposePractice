@@ -1,4 +1,4 @@
-package com.yerayyas.daggerhiltcomposepractice
+package com.yerayyas.daggerhiltcomposepractice.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.yerayyas.daggerhiltcomposepractice.ui.theme.DaggerHiltComposePracticeTheme
+import com.yerayyas.daggerhiltcomposepractice.presentation.ui.theme.DaggerHiltComposePracticeTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

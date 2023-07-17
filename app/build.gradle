@@ -70,10 +70,14 @@ dependencies {
     // Dependency injection
     implementation "com.google.dagger:hilt-android:$versions.dagger"
     kapt "com.google.dagger:hilt-compiler:$versions.dagger"
+    implementation 'androidx.hilt:hilt-navigation-compose:1.1.0-alpha01'
 
     // Coil
-    implementation "io.coil-kt:coil-compose:$versions.coil"
-    implementation "com.google.accompanist:accompanist-permissions:$versions.accompanist_permissions"
+//    implementation "io.coil-kt:coil-compose:$versions.coil"
+//    implementation "io.coil-kt:coil:$versions.coil"
+    //implementation "com.google.accompanist:accompanist-permissions:$versions.accompanist_permissions"
+    implementation "com.google.accompanist:accompanist-coil:$versions.accompanist_coil"
+
 
     // Network
     implementation "com.squareup.retrofit2:retrofit:$versions.retrofit"
@@ -82,12 +86,14 @@ dependencies {
 
     // Android coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"//TODO: <-- probar a quitar ésta
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines"
+//TODO: <-- probar a quitar ésta
 
     // Lifecycle and extensions
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$versions.lifecycle"
-    implementation "androidx.activity:activity-ktx:$versions.activity_ktx"//TODO: <-- probar a quitar ésta
+    implementation "androidx.activity:activity-ktx:$versions.activity_ktx"
+//TODO: <-- probar a quitar ésta
 
     implementation 'androidx.palette:palette:1.0.0'
 }
