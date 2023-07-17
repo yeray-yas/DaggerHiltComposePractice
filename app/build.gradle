@@ -73,8 +73,8 @@ dependencies {
     implementation 'androidx.hilt:hilt-navigation-compose:1.1.0-alpha01'
 
     // Coil
-//    implementation "io.coil-kt:coil-compose:$versions.coil"
-//    implementation "io.coil-kt:coil:$versions.coil"
+    implementation "io.coil-kt:coil-compose:$versions.coil"
+    implementation "io.coil-kt:coil:$versions.coil"
     //implementation "com.google.accompanist:accompanist-permissions:$versions.accompanist_permissions"
     implementation "com.google.accompanist:accompanist-coil:$versions.accompanist_coil"
 
